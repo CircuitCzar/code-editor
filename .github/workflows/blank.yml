@@ -15,7 +15,7 @@ jobs:
       # 安装依赖
       - name: Install dependencies
         run: |
-          npm install
+          yarn
           npm run build
 
       - name: Deploy 🚀
